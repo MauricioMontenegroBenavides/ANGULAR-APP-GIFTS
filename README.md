@@ -1,3 +1,7 @@
+#DESCRIPCIÓN
+
+El proyecto es una aplicación en Angular que busca los Gifts dependiendo de la palabra que se ponga en el buscador , la APP se conecta a una api de Gifts que es la misma que utiliza whatsapp para traer gifts
+
 # GifsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
