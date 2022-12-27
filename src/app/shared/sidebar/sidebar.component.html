@@ -1,0 +1,17 @@
+
+
+
+<div class=" bg-dark border-right p-3" id="sidebar">
+  <h1 class="text-light">
+    Gifts-App
+  </h1>
+  <hr class="text-white">
+
+  <div  class="list-group list-reset" >
+    <a *ngFor="let heroe of mostrar"  class="list-group-item list-group-item-action " href="#" (click)="cambiarNombre(heroe)">{{heroe | titlecase}} </a>
+  </div>
+
+  <!--El pipe solo hace modificaciones visuales, no hace transformacion a la data-->
+
+
+</div>
